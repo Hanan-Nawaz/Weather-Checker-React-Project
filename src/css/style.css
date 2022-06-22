@@ -1,0 +1,64 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-image: url('/public/assests/cold.jpg');
+    background-size: cover;
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.temp {
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+span {
+    color: white;
+    opacity: 1;
+    font-size: 50px;
+}
+
+span i {
+    animation: street 10s infinite;
+
+}
+
+@keyframes street {
+    0% {
+        font-size: 50px;
+    }
+
+    50% {
+        margin-left: 5px;
+        font-size: 57px;
+    }
+
+    100% {
+        font-size: 50px;
+    }
+}
+
+.temp h1 {
+    color: black;
+    opacity: 1;
+    font-size: 40px;
+}
+
+p {
+    font-weight: bold;
+}
